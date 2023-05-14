@@ -50,6 +50,14 @@ p {
     gap: 20px;
 }
 
+#linkedin-icon:hover {
+    filter:opacity(75%);
+}
+
+#github-icon:hover {
+    filter:opacity(75%);
+}
+
 .my-image {
     display: flex;
     justify-content: center;
