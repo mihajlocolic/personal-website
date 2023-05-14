@@ -46,6 +46,17 @@ p {
     gap: 20px;
 }
 
+.my-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
 .biography {
     display: flex;
     flex-direction: column;
