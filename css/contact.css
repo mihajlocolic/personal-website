@@ -1,0 +1,43 @@
+nav {
+    background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
+    box-shadow: 1px 1px 8px RGBA(0, 0, 0, 0.3);s
+}
+
+.navbar-brand, .nav-link {
+    font-size: 18px;
+    color: white;
+}
+
+.btn-group {
+    margin-right: 1rem;
+}
+
+body {
+    visibility: hidden;
+
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .container {
+
+        text-align: center;
+    }
+}
+
