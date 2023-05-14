@@ -10,6 +10,7 @@ function setColorMode(colorMode) {
         }
 
         document.getElementById('github-icon').src = '../images/github-icon.svg';
+        document.getElementById('linkedin-icon').src = '../images/linkedin.svg';
         document.getElementById('btn-dark').checked = false;
         document.getElementById('btn-light').checked = true;
 
@@ -22,6 +23,7 @@ function setColorMode(colorMode) {
         }
 
         document.getElementById('github-icon').src = '../images/github-icon-white.svg';
+        document.getElementById('linkedin-icon').src = '../images/linkedin-white.svg';
         document.getElementById('btn-dark').checked = true;
         document.getElementById('btn-light').checked = false;
     }
