@@ -55,6 +55,7 @@ p {
 .my-image img {
     max-width: 80%;
     max-height: 80%;
+    border-radius: 20px;
 }
 
 .biography {
