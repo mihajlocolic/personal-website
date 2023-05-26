@@ -47,14 +47,19 @@ p {
 
 .links {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
+
 
 #linkedin-icon:hover {
     filter:opacity(75%);
 }
 
 #github-icon:hover {
+    filter:opacity(75%);
+}
+
+#email-icon:hover {
     filter:opacity(75%);
 }
 
