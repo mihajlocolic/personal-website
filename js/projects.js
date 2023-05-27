@@ -5,8 +5,7 @@ function setColorMode(colorMode) {
         document.body.style.backgroundColor = 'white';
 
         document.getElementById('project1').className = 'card text-bg-light mb3';
-        document.getElementById('project2').className = 'card text-bg-light mb3';
-        document.getElementById('project3').className = 'card text-bg-light mb3';
+        
         document.getElementById('btn-dark').checked = false;
         document.getElementById('btn-light').checked = true;
 
@@ -14,8 +13,7 @@ function setColorMode(colorMode) {
         document.body.style.backgroundColor = '#28282B';
 
         document.getElementById('project1').className = 'card text-bg-dark mb3';
-        document.getElementById('project2').className = 'card text-bg-dark mb3';
-        document.getElementById('project3').className = 'card text-bg-dark mb3';
+    
 
         document.getElementById('btn-dark').checked = true;
         document.getElementById('btn-light').checked = false;
