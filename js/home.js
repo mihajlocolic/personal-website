@@ -23,6 +23,12 @@ window.addEventListener('load', function() {
     var colorMode = localStorage.getItem('colorMode') || 'light';
     setColorMode(colorMode);
     document.body.style.visibility = 'visible';
+    setTimeout(function() {
+        const fadeInElements = document.querySelectorAll(".content");
+        fadeInElements.forEach(element => {
+            element.style.opacity = 1;
+        });
+    }, 500);
 });
 
 
@@ -34,3 +40,5 @@ document.getElementById('color-mode').addEventListener('click', function() {
         setColorMode('dark');
     }
   });
+
+  

@@ -13,16 +13,19 @@ nav {
 }
 
 body {
+   
     visibility: hidden;
 }
 
 h1 {
     font-weight: lighter;
+    transition-timing-function: ease-out;
 }
 
 p {
     font-size: 18px;
     font-weight: lighter;
+    transition-timing-function: ease-out;
 }
 
 
@@ -32,6 +35,8 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    opacity: 0;
+    transition: opacity 2s ease-out;
 }
 
 .welcome-text, .welcome-text2 {
